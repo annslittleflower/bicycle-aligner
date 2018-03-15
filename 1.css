@@ -1,0 +1,22 @@
+.wrapper {
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 0px;
+    -webkit-transition: 1s ease-in-out;
+}
+
+.item {
+    font-size: 20px;
+    box-sizing: border-box;
+    min-height: 200px;
+    min-width: 200px;
+    border: 1px solid green;
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px;
+}
+
+.hack {
+    visibility: hidden;
+}
